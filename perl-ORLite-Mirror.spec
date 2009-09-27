@@ -1,5 +1,5 @@
 %define upstream_name    ORLite-Mirror
-%define upstream_version 1.16
+%define upstream_version 1.17
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
