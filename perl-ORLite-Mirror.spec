@@ -1,15 +1,15 @@
 %define upstream_name    ORLite-Mirror
-%define upstream_version 1.20
+%define upstream_version 1.24
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Extend ORLite to support remote SQLite databases
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/ORLite/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://svn.ali.as/cpan/trunk/ORLite-Mirror
+Source0:	https://cpan.metacpan.org/authors/id/A/AD/ADAMK/ORLite-Mirror-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
